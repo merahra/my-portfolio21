@@ -1,0 +1,57 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, sans-serif;
+}
+section{
+    border: 10px solid red;
+    height: 1380px;
+}
+.halfwidth{
+    float: left;
+    width: 35%;
+    margin: 6%;  
+}
+.highlight{
+    color: rgb(67, 226, 67);
+}
+
+.half2, .half3, img{
+    width: 100%;
+    height: 100%;
+}
+.half2 {
+    padding-top: 40%;
+}
+.half4 {
+    padding-top: 5%;
+    padding-left: 25%;
+}
+
+.insideLink{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color:orange;
+    border-radius: 5px;
+    padding: 20px 70px;
+}
+h1{
+    font-size: 70px;
+    line-height: 25%;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+    padding-bottom: 10%;
+}
+.navi{
+    text-decoration: none;
+    padding-right: 3%;
+    font-weight: 900;
+}
+nav{
+    text-align: right;
+    padding-top: 2%;
+}
+
