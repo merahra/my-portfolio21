@@ -1,11 +1,13 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, sans-serif;
+    margin: 0%;
 }
-section{
+.section1{
     border: 10px solid red;
     height: 1380px;
 }
 .halfwidth{
+    border: 5px solid grey;
     float: left;
     width: 35%;
     margin: 6%;  
@@ -53,5 +55,62 @@ p{
 nav{
     text-align: right;
     padding-top: 2%;
+}
+
+
+
+/*section2 css start */
+
+.section2{
+    border: 10px solid red;
+    background-color: rgb(162, 243, 162);
+    height: 1000px;
+}
+.card{
+    float: left;
+    border: 10px solid gray;
+    border-radius: 30px;
+    background-color: honeydew;
+    padding: 5% 2%;
+    width: 20%;
+    margin: 3% 3%;
+}
+.sec2para{
+    font-size: 15px;
+    padding: 0%;
+}
+.sec2h1{
+    text-align: center;
+    padding: 3%;
+}
+
+
+
+/*section3 css start */
+
+
+.section3{
+    border: 10px solid red;
+    height: 1000px;
+}
+.sec3img{
+    background-image: url("shapes/Group_33094_1.png");
+    background-size: cover;
+    margin: 8% 18%;
+    width: 65%;
+    height: 25%;
+    border-radius: 30px;
+}
+.sec3write{
+    text-align: left;
+    color: white;
+    left: 25%;
+    top: 50%;
+}
+.sec3Link{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-align: right;
 }
 
