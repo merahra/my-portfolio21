@@ -93,15 +93,15 @@ nav{
 
 
 .section3{
-    height: 800px;
+    height: 650px;
 }
 .sec3img{
     background-image: url("shapes/Group_33094_1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 60%;
-    height: 27%;
-    margin: 8% 18%;
+    width: 63%;
+    height: 35%;
+    margin: 8% 20%;
 }
 
 .section3 h3,h2{
