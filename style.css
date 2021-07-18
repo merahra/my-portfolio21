@@ -3,11 +3,9 @@ body{
     margin: 0%;
 }
 .section1{
-    border: 10px solid red;
     height: 1380px;
 }
 .halfwidth{
-    border: 5px solid grey;
     float: left;
     width: 35%;
     margin: 6%;  
@@ -17,8 +15,8 @@ body{
 }
 
 .half2, .half3, img{
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
 }
 .half2 {
     padding-top: 40%;
@@ -62,26 +60,31 @@ nav{
 /*section2 css start */
 
 .section2{
-    border: 10px solid red;
-    background-color: rgb(162, 243, 162);
-    height: 1000px;
+    background-color: antiquewhite;
+    height: 800px;
 }
 .card{
     float: left;
-    border: 10px solid gray;
+    border: 20px solid white;
     border-radius: 30px;
-    background-color: honeydew;
-    padding: 5% 2%;
+    background-color: white;
     width: 20%;
-    margin: 3% 3%;
+}
+#card1{
+    margin-left: 10%;
+    margin-right: 4%;
+}
+#card2{
+    margin-right: 4%;
 }
 .sec2para{
     font-size: 15px;
     padding: 0%;
 }
-.sec2h1{
+.section2 h1{
+    font-size: 40px;
     text-align: center;
-    padding: 3%;
+    padding: 5%;
 }
 
 
@@ -90,25 +93,46 @@ nav{
 
 
 .section3{
-    border: 10px solid red;
-    height: 1000px;
+    height: 800px;
 }
 .sec3img{
     background-image: url("shapes/Group_33094_1.png");
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 27%;
     margin: 8% 18%;
-    width: 65%;
-    height: 25%;
-    border-radius: 30px;
-}
-.sec3write{
-    text-align: left;
-    padding: 5% 2%;
-    color: white;
-    left: 25%;
-    top: 50%;
-}
-.sec3write a{
-    text-align: right;
 }
 
+.section3 h3,h2{
+    text-align: center;
+}
+.section3 img{ 
+    width: 3%;
+    height: 5%;
+}
+.img1{
+    padding-left: 42%;
+}
+.img2{
+    padding-left: 1.5%;
+}
+.img3{
+    padding-left: 1.5%;
+}
+.sec3img h1{
+    padding-top: 10%;
+    padding-left: 7%;
+    font-weight: bolder;
+    font-size: 45px; 
+    color: white;
+}
+.sec3img a{
+    font-size: 15px; 
+    color: white; 
+    text-decoration: none; 
+    background-color: orange; 
+    padding: 25px 25px; 
+    border-radius: 5px; 
+    margin-left: 33%;
+}
